@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuarezSat | Proyecto CanSat IES Padre Suárez</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container nav">
+            <a class="logo" href="index.html" aria-label="Inicio SuarezSat">
+                <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+                    <title>Logotipo nave espacial</title>
+                    <defs>
+                        <linearGradient id="rocketGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#00acc1"/>
+                            <stop offset="100%" stop-color="#1a237e"/>
+                        </linearGradient>
+                        <linearGradient id="flameGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" stop-color="#ffb300"/>
+                            <stop offset="100%" stop-color="#ff6f00"/>
+                        </linearGradient>
+                    </defs>
+                    <path d="M32 4C23 10 18 20 18 32s5 22 14 28c9-6 14-16 14-28S41 10 32 4z" fill="url(#rocketGradient)"/>
+                    <circle cx="32" cy="26" r="6" fill="#0d0f1a"/>
+                    <path d="M22 34c0 6 4 12 10 16 6-4 10-10 10-16H22z" fill="#0d0f1a"/>
+                    <path d="M28 44h8l4 10-8-4-8 4 4-10z" fill="url(#flameGradient)"/>
+                </svg>
+                SuarezSat
+            </a>
+            <nav class="nav-links" aria-label="Navegación principal">
+                <a href="index.html">Inicio</a>
+                <a href="mission.html">Misión</a>
+                <a href="team.html">Equipo</a>
+                <a href="crowdfunding.html">Crowdfunding</a>
+                <a href="sponsors.html">Patrocinadores</a>
+                <a href="multimedia.html">Multimedia</a>
+                <a href="contact.html">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container">
+            <span class="pill">Proyecto CanSat IES Padre Suárez</span>
+            <h1>SuarezSat: lanzando talento granadino al espacio</h1>
+            <p>
+                Somos el equipo de estudiantes del IES Padre Suárez que representa a Granada en el desafío CanSat.
+                SuarezSat es nuestra misión para diseñar, construir y lanzar un satélite en miniatura, combinando ciencia,
+                ingeniería y pasión por el espacio.
+            </p>
+            <div class="cta-group">
+                <a class="btn btn-primary" href="crowdfunding.html">Apoya con un donativo</a>
+                <a class="btn btn-secondary" href="contact.html">Resuelve tus dudas</a>
+                <a class="btn btn-secondary" href="sponsors.html">Explora patrocinadores</a>
+            </div>
+        </section>
+
+        <section class="container section-light">
+            <h2>¿Qué es un CanSat?</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Satélite en miniatura</h3>
+                    <p>
+                        Un CanSat es un dispositivo que cabe en una lata de refresco y que integra todos los subsistemas
+                        de un satélite real: alimentación, sensores, comunicaciones y control.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Desafío educativo</h3>
+                    <p>
+                        La Agencia Espacial Europea propone el reto CanSat para que estudiantes como nosotros experimenten
+                        con misiones espaciales reales y desarrollen talento STEM local.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section-light">
+            <h2>Objetivos de SuarezSat</h2>
+            <div class="grid grid-2">
+                <div class="card">
+                    <h3>Medición ambiental</h3>
+                    <p>
+                        Recolectaremos datos de temperatura, humedad y presión para estudiar la atmósfera durante el vuelo
+                        y el descenso del CanSat.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Telemetría en vivo</h3>
+                    <p>
+                        Transmitiremos la información en tiempo real a nuestra estación en tierra para analizarla y tomar decisiones rápidas.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Recuperación segura</h3>
+                    <p>
+                        Diseñaremos un sistema de paracaídas y localización para garantizar la recuperación segura del satélite.
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>Divulgación científica</h3>
+                    <p>
+                        Queremos inspirar a más estudiantes y familias a interesarse por la ciencia y la tecnología a través de actividades y charlas.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section-light">
+            <h2>Próximos hitos</h2>
+            <div class="timeline">
+                <article class="timeline-item">
+                    <h3>Noviembre · Diseño final del CanSat</h3>
+                    <p>Finalizaremos la selección de componentes electrónicos y la arquitectura de software.</p>
+                </article>
+                <article class="timeline-item">
+                    <h3>Enero · Integración y pruebas en laboratorio</h3>
+                    <p>Ensamblaremos la carga útil y verificaremos los sensores con pruebas de campo.</p>
+                </article>
+                <article class="timeline-item">
+                    <h3>Marzo · Validación del paracaídas</h3>
+                    <p>Realizaremos pruebas de caída controladas para garantizar la recuperación del satélite.</p>
+                </article>
+                <article class="timeline-item">
+                    <h3>Mayo · Lanzamiento oficial</h3>
+                    <p>Competiremos en la fase nacional CanSat representando al IES Padre Suárez y a la provincia de Granada.</p>
+                </article>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <h3>12</h3>
+                    <span>Estudiantes en el equipo</span>
+                </div>
+                <div class="stat">
+                    <h3>8</h3>
+                    <span>Mentores científicos y docentes</span>
+                </div>
+                <div class="stat">
+                    <h3>4</h3>
+                    <span>Meses hasta el lanzamiento</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <div class="logo" aria-hidden="true">
+                    <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+                        <path d="M32 4C23 10 18 20 18 32s5 22 14 28c9-6 14-16 14-28S41 10 32 4z" fill="url(#rocketGradient)"/>
+                    </svg>
+                    SuarezSat
+                </div>
+                <p>
+                    Proyecto CanSat del IES Padre Suárez. Innovación, ciencia y trabajo en equipo al servicio de la exploración espacial educativa.
+                </p>
+            </div>
+            <div>
+                <h4 class="footer-title">Explora</h4>
+                <p><a href="mission.html">Nuestra misión</a></p>
+                <p><a href="team.html">Conoce al equipo</a></p>
+                <p><a href="crowdfunding.html">Participa con una donación</a></p>
+                <p><a href="sponsors.html">Busca colaboradores</a></p>
+            </div>
+            <div>
+                <h4 class="footer-title">Contacto</h4>
+                <p>Correo general: <a href="mailto:hola@suarezsat.es">hola@suarezsat.es</a></p>
+                <p>Dudas técnicas: <a href="mailto:dudas@suarezsat.es">dudas@suarezsat.es</a></p>
+                <p>Crowdfunding: <a href="mailto:aporta@suarezsat.es">aporta@suarezsat.es</a></p>
+            </div>
+        </div>
+        <div class="divider container"></div>
+        <div class="container">
+            <p>IES Padre Suárez · Granada · &copy; <span id="year"></span> SuarezSat. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
+
